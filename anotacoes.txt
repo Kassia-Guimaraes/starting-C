@@ -1,0 +1,21 @@
+Critérios de otimização de um Programa:
+    # Atributos de qualidade
+    -> velocidade
+    -> tamanho
+    -> consumo de energia
+    
+    De um mesmo programa em C, posso gerar diferentes programas em assembly, com diferentes funções, instruções
+    
+    links
+    gcc NOMEARQUIVO.c -o prog
+    gcc -E NOMEARQUIVO.c -o prog.i
+    gcc -S NOMEARQUIVO.c -o prog.s
+    gcc -c NOMEARQUIVO.c -o prog.o
+
+    registros estão diretamente no processador, para guardar informação, para acesso rápido
+    IA32 possui apenas 8 registros, sendo um conjunto muito limitado
+
+Onde o programa é executado? 
+    - Os programas são executados na CPU
+
+    memoria dinamica
